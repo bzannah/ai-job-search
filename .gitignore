@@ -49,6 +49,7 @@ skills-lock.json
 cv/main_*.tex
 !cv/main_example.tex
 cover_letters/cover_*.tex
+!cover_letters/cover_example.tex
 cover_letters/Cover_*.tex
 
 # documents/ subfolder contents are personal — only README and folder structure are tracked

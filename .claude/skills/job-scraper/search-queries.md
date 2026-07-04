@@ -4,10 +4,19 @@
 
 ## Search Sites
 
-**Note:** the bundled CLI tools in `.agents/skills/` target Danish job portals (Jobindex etc.) and do not apply to this profile. Use WebSearch/WebFetch with the queries below instead. The user's instruction: any source that has fitting roles.
+**Note:** of the bundled CLI tools in `.agents/skills/`, the Danish portal tools (jobindex, jobbank, jobdanmark, jobnet) do not apply to this profile - but **`linkedin-search` is country-agnostic and is the primary scrape tool here**. It runs on Bun with no auth. Keep volume low (personal use only). Use WebSearch/WebFetch with the queries below as the secondary channel. The user's instruction: any source that has fitting roles.
+
+```bash
+# Primary scrape commands (run from repo root; .agents/ is the skills base dir)
+bun run .agents/skills/linkedin-search/cli/src/cli.ts search -q "Head of Engineering" -l "London, United Kingdom" --jobage 14
+bun run .agents/skills/linkedin-search/cli/src/cli.ts search -q "Director of Engineering" -l "London, United Kingdom" --jobage 14
+bun run .agents/skills/linkedin-search/cli/src/cli.ts search -q "VP of Engineering" -l "United Kingdom" --remote remote --jobage 14
+bun run .agents/skills/linkedin-search/cli/src/cli.ts search -q "Head of AI Engineering" -l "United Kingdom" --jobage 30
+bun run .agents/skills/linkedin-search/cli/src/cli.ts detail <jobId>   # full description for fit evaluation
+```
 
 Primary (UK engineering leadership market):
-- **linkedin.com/jobs** - largest volume of Head/Director/VP Engineering roles (filter: London / United Kingdom / Remote)
+- **linkedin.com/jobs** - largest volume of Head/Director/VP Engineering roles (filter: London / United Kingdom / Remote) - use the `linkedin-search` CLI above
 - **otta.com / welcometothejungle.com** - curated tech roles, good salary transparency, strong for scale-ups
 - **cord.co** - direct-to-company UK tech hiring
 - **indeed.co.uk** and **glassdoor.co.uk** - broad coverage, salary data

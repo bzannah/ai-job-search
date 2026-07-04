@@ -34,6 +34,7 @@ The framework encodes career guidance best practices, including structured evalu
 - Python 3.10+
 - [Bun](https://bun.sh) (for Danish job search CLI tools)
 - LaTeX distribution with `lualatex` and `xelatex`: [TeX Live](https://tug.org/texlive/) or [MiKTeX](https://miktex.org/). The CV compiles with `lualatex` (pdflatex often fails on modern MiKTeX installs with `fontawesome5` font-expansion errors); the cover letter compiles with `xelatex` because `cover.cls` requires `fontspec`.
+  - **Claude Code on the web:** no manual install needed — `.claude/hooks/session-start.sh` installs TeX Live (Debian/Ubuntu packages incl. `texlive-fonts-recommended`) automatically at session start in remote containers.
 
 ## Quick start
 

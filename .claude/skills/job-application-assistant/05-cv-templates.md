@@ -26,22 +26,31 @@ Expected output: `Output written on main_<company>.pdf (2 pages, ...)`. Any page
 \moderncvcolor{blue}
 
 % Force both first and last name AND section headings to render in moderncv
-% blue (color1). Default banking on lualatex+MiKTeX leaves these black, which
-% looks inconsistent with the rest of the blue accent scheme.
-\renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
-\renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}
+% blue (color1). Default banking on lualatex leaves these black, which looks
+% inconsistent with the rest of the blue accent scheme.
+% Version-tolerant: moderncv >= 2.4 (MiKTeX) splits \firstnamestyle/\lastnamestyle;
+% v2.3.x (TeX Live 2023, Ubuntu) has a single \namestyle.
+\makeatletter
+\@ifundefined{firstnamestyle}{%
+  \renewcommand*{\namestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}%
+}{%
+  \renewcommand*{\firstnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}%
+  \renewcommand*{\lastnamestyle}[1]{{\fontsize{34}{36}\bfseries\upshape\color{color1}#1}}%
+}
+\makeatother
 \renewcommand*{\sectionstyle}[1]{{\sectionfont\color{color1}#1}}
 
 \usepackage[utf8]{inputenc}
-\usepackage{hyperref}
-\hypersetup{
+% moderncv loads hyperref itself at the end of the preamble; loading it again
+% here causes an option clash on TeX Live. Configure it after it is loaded.
+\AtBeginDocument{\hypersetup{
     colorlinks=true,
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
     pdftitle={Babagana Zannah - CV},
     pdfpagemode=FullScreen,
-}
+}}
 \usepackage[scale=0.77]{geometry}
 \usepackage{import}
 

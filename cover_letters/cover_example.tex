@@ -1,0 +1,60 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Cover Letter - EXAMPLE / MASTER TEMPLATE
+% Babagana Zannah
+%
+% Copy to cover_<company>_<role>.tex and replace the bracketed
+% placeholders when tailoring for a real application.
+% Compile with: xelatex -interaction=nonstopmode cover_example.tex
+% Must be exactly 1 page.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{cover}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhf{}
+
+\rfoot{Page \thepage \hspace{0pt}}
+\thispagestyle{empty}
+\renewcommand{\headrulewidth}{0pt}
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     TITLE NAME
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\namesection{}{\Huge{Babagana Zannah}}{  \href{mailto:heyzannah@gmail.com}{heyzannah@gmail.com} | +44 7432 690 938 |  \urlstyle{same}\href{https://www.linkedin.com/in/babagana-zannah-6a76521b7/}{LinkedIn}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%     MAIN COVER LETTER CONTENT
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\currentdate{\today}
+\lettercontent{Dear [Hiring Manager / Team],}
+
+\lettercontent{[Opening paragraph: name the role and the company, and connect it to the strongest relevant fact - e.g. leading a 68-person engineering organisation at Sainsbury's, owning AI/LLM adoption strategy at one of the UK's largest retailers. 2-3 sentences.]}
+
+\lettercontent{[Body paragraph lead-in: the most relevant experience for this posting, then the evidence:]}
+
+{\raggedright\fontspec[Path = OpenFonts/fonts/raleway/]{Raleway-Medium}\fontsize{11pt}{13pt}\selectfont
+\begin{itemize}
+    \item \textbf{[Org leadership]:} [e.g. scaled and led engineering organisations of 11 to 68 people across the UK and Germany]
+    \item \textbf{[Commercial impact]:} [e.g. AI-powered personalisation lifting conversion 1.8pp; deployment frequency from 14 to 52 per day]
+    \item \textbf{[Relevant depth]:} [e.g. production LLM systems - RAG, vector search, evaluation, guardrails]
+\end{itemize}\par}
+\vspace{6pt}
+
+\lettercontent{[Connection to company: why this role, why this company specifically - reference verified facts about their product, mission, or stage.]}
+
+\lettercontent{[Personal fit paragraph: behavioral strengths - builds and develops teams, hands-on when key metrics demand it, motivated by business outcomes. 2-3 sentences.]}
+
+\lettercontent{I look forward to hearing from you.}
+
+\begin{flushright}
+% NOTE: no trailing \\ inside \closing{} - the macro already appends one;
+% a manual \\ triggers "There's no line here to end."
+\closing{Kind regards,}
+
+\signature{Babagana Zannah}
+\end{flushright}
+\end{document}
