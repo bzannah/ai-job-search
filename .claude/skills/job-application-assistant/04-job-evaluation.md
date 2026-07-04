@@ -16,9 +16,9 @@ How well do the required/preferred skills align with the candidate's capabilitie
 | 40-59 | Partial match, significant upskilling needed |
 | 0-39 | Fundamental mismatch |
 
-**Strong match areas:** [YOUR_PRIMARY_SKILLS]
-**Moderate match areas:** [YOUR_SECONDARY_SKILLS]
-**Weak match areas:** [SKILLS_YOU_LACK]
+**Strong match areas:** Engineering leadership at scale (org design, strategy, hiring/leveling, OKRs, stakeholder management, investment cases); AI/ML product leadership (production AI, LLMs, RAG, personalisation, evals, guardrails); reliability & delivery transformation (SLOs, CI/CD, MTTR/change-failure reduction); architecture & platforms (distributed systems, event-driven, cloud); AWS/Java/Node.js/TypeScript-centred stacks
+**Moderate match areas:** Hands-on IC-level coding expectations in modern niche stacks (Go, Rust, Python-only shops); deep data engineering/warehouse platforms; mobile-first orgs beyond React Native/Swift/Kotlin oversight; regulated-industry compliance leadership (finserv/healthcare specifics are learnable, not proven)
+**Weak match areas:** Hardware/embedded/firmware engineering; academic research leadership; pure data-science/research-scientist tracks; security-specialist leadership (CISO-type roles)
 
 ### 2. Experience Match (0-100)
 Does work history align with what they're looking for?
@@ -30,9 +30,9 @@ Does work history align with what they're looking for?
 | 40-59 | Adjacent experience, would need to make the case |
 | 0-39 | Unrelated experience |
 
-**Strong:** [YOUR_DIRECT_EXPERIENCE_DOMAINS]
-**Moderate:** [YOUR_ADJACENT_EXPERIENCE]
-**Entry-level:** [ROLES_WITH_LIMITED_EXPERIENCE]
+**Strong:** Head/Director-level engineering leadership in retail, e-commerce, logistics and B2B SaaS; orgs of 30-70 people; consumer-facing digital products and mobile apps; AI/LLM adoption strategy at enterprise scale; delivery and reliability turnarounds
+**Moderate:** VP Engineering / CTO at scale-ups (same competencies, one level up - make the case via 68-person org and MBA); AI-native product companies (strong AI credentials but Sainsbury's is retail-first, not AI-first); fintech/healthtech/other regulated sectors (transferable, not direct)
+**Entry-level:** Founding engineer / very early startup CTO-who-codes-all-day roles (career is org-scale leadership, not solo building); domains with zero overlap (hardware, biotech research, defence engineering)
 
 ### 3. Behavioral/Culture Fit (0-100)
 Does the role and company culture match the behavioral profile?
@@ -47,10 +47,14 @@ Does the role and company culture match the behavioral profile?
 **Red flags to research:** Department disorganization, work dominated by maintenance over development, poor chemistry with leadership, culture mismatches. Check reviews, media coverage, LinkedIn connections, and network contacts for insider perspective.
 
 ### 4. Location & Logistics (Pass/Fail + Notes)
-- Within commute range: PASS
-- Remote with occasional office: PASS
-- Requires relocation: FAIL (deal-breaker)
+- London office, hybrid: PASS
+- Fully remote (UK-eligible): PASS
+- Remote with occasional London office days: PASS
+- Full-time on-site (even in London): FLAG (discuss with user)
+- Requires relocation or full-time on-site outside London: FAIL (deal-breaker)
 - Frequent international travel: FLAG (discuss with user)
+- **Salary gate:** base salary below £150K (or a range whose top end is below £150K): FAIL. If no salary is listed, flag as "salary unknown - verify £150K+ base before investing effort"
+- **Sector gate:** gambling/betting/casino companies: FAIL (deal-breaker), regardless of all other scores
 
 ### 5. Career Alignment & Motivation (0-100)
 Does this role advance career goals and contain tasks that energize?
@@ -63,19 +67,19 @@ Does this role advance career goals and contain tasks that energize?
 | 0-39 | Dead end or backwards step |
 
 **Career goals:**
-- [YOUR_CAREER_GOAL_1]
-- [YOUR_CAREER_GOAL_2]
-- [YOUR_CAREER_GOAL_3]
+- Land a Head of Engineering / Director of Engineering role (or VP Engineering / scale-up CTO) with real scope: org leadership plus technical strategy
+- Build AI-forward engineering organisations - roles like Head of AI Engineering or Director of AI Platforms leverage the rare combination of org-scale leadership and production AI/LLM depth
+- Keep compounding the leadership track record: bigger scope, measurable commercial outcomes, developing the next layer of engineering leaders
 
 **Motivation filter:** Evaluate not just whether you *can* do the tasks, but whether the tasks will *energize* you. Consider:
-- Tasks that energize: [YOUR_ENERGIZING_TASKS]
-- Tasks that drain: [YOUR_DRAINING_TASKS]
-- Non-task factors: leadership style, department culture, company values, degree of autonomy
+- Tasks that energize: driving product delivery through building/developing teams; setting technical strategy with Product and Design; owning AI adoption; going hands-on to hit a key metric; delivery under pressure
+- Tasks that drain: caretaker roles with nothing to build or deliver; work with no business success metric attached; pure maintenance/keep-the-lights-on mandates
+- Non-task factors: engineering-driven culture, autonomy to organise the team around outcomes, products that consumers or businesses actually use
 
 **Life situation alignment:** Consider personal constraints:
-- **Security**: [YOUR_FINANCIAL_SITUATION_CONTEXT]
-- **Flexibility**: [YOUR_SCHEDULE_CONSTRAINTS]
-- **Professional development**: [YOUR_GROWTH_PRIORITIES]
+- **Security**: currently employed (Head of Engineering, J Sainsbury PLC) - can be selective; £150K base is the floor, not the target
+- **Flexibility**: London hybrid or fully remote only; no relocation
+- **Professional development**: scope growth (Director/VP/CTO trajectory) and AI leadership positioning matter more than title alone
 
 ### 6. Salary Benchmark (Optional)
 

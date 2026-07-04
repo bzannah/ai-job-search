@@ -1,10 +1,7 @@
-# Job Application Assistant for [YOUR_NAME]
-
-<!-- SETUP: This file is populated by running /setup -->
-<!-- After running /setup, all [PLACEHOLDER] tokens will be replaced with your actual information -->
+# Job Application Assistant for Babagana Zannah
 
 ## Role
-This repo is a job application workspace. Claude acts as a career advisor and application assistant for [YOUR_NAME], helping with:
+This repo is a job application workspace. Claude acts as a career advisor and application assistant for Babagana Zannah, helping with:
 1. **Job fit evaluation** - Assess job postings against your profile (skills, experience, behavioral traits)
 2. **CV tailoring** - Adapt existing CV templates (LaTeX/moderncv) to target specific roles
 3. **Cover letter writing** - Draft targeted cover letters using existing templates (LaTeX)
@@ -13,68 +10,81 @@ This repo is a job application workspace. Claude acts as a career advisor and ap
 
 ## Candidate Profile
 
-<!-- This section is auto-populated by /setup. You can also fill it in manually. -->
-
 ### Identity
-- **Name:** [YOUR_NAME]
-- **Location:** [YOUR_CITY], [YOUR_COUNTRY] ([YOUR_COMMUTE_CONSTRAINTS])
-- **Languages:** [YOUR_LANGUAGES]
-- **Status:** [YOUR_EMPLOYMENT_STATUS]
-- **LinkedIn headline:** "[YOUR_LINKEDIN_HEADLINE]"
+- **Name:** Babagana Zannah
+- **Location:** London, UK (London hybrid or fully remote only - no relocation)
+- **Languages:** English (fluent)
+- **Status:** Employed - Head of Engineering at J Sainsbury PLC; open to Engineering Leadership roles
+- **LinkedIn headline:** "Head of Engineering · Engineering Director"
+- **Contact:** heyzannah@gmail.com · +44 7432 690 938 · [LinkedIn](https://www.linkedin.com/in/babagana-zannah-6a76521b7/) · [GitHub](https://github.com/bzannah) · [babagana.me](https://babagana.me)
 
 ### Education
-<!-- List your degrees, most recent first -->
-- **[DEGREE_LEVEL] in [FIELD]** ([YEAR_START]-[YEAR_END]) - [INSTITUTION]
-  - Thesis: "[THESIS_TITLE]"
-  - Topics: [KEY_TOPICS]
+- **MBA** (2021-2023) - Quantic School of Business and Technology - Distinction
+- **MSc in Artificial Intelligence & Machine Learning** (2015-2016) - University of York - Distinction
+- **BSc (Hons) in Computer Science** (2011-2014) - Middlesex University - First Class
 
 ### Professional Experience
-<!-- List your roles, most recent first -->
-- **[JOB_TITLE]** ([START_DATE] - [END_DATE]) - **[COMPANY]** ([LOCATION])
-  - [KEY_RESPONSIBILITY_1]
-  - [KEY_RESPONSIBILITY_2]
-  - [KEY_ACHIEVEMENT]
+- **Head of Engineering** (Jan 2023 - Present) - **J Sainsbury PLC** (London, UK)
+  - Leads engineering for Brand Experiences and Mobile Apps across a 68-person organisation; sets technical strategy jointly with Product and Design
+  - Owns the company's AI and LLM adoption strategy (RAG, vector search, evaluation, observability, safety/privacy/cost guardrails); AI-powered personalisation lifted discovery CTR 2.7% and conversion 1.8pp
+  - Rebuilt engineering delivery: deployment frequency from 14 to 52 per day with lower change-failure rate and MTTR
+  - Developed engineering managers and technical leads, strengthened succession planning and hiring; secured £10m in early-careers programme funding
+- **Senior Engineering Manager** (Oct 2021 - Jan 2023) - **Beacon Technologies Ltd** (London, UK)
+  - Led 37 engineers across delivery, pre-sales and support for enterprise B2B clients; owned architecture, delivery and team health
+  - Shipped a global freight-visibility platform (time-series forecasting, propensity models): ETA accuracy +17%, exception rate -12%
+  - Standardised delivery cadence, engineering standards and client-facing risk reporting; cycle time -22%
+- **Head of Engineering** (Aug 2020 - Oct 2021) - **SportScheck GmbH** (Hamburg, Germany)
+  - Led a 46-person organisation across software engineering, project management and product ownership
+  - Set engineering strategy and roadmaps tied to revenue and reliability; shipped three major launches per quarter
+  - Established incident-review and remediation practice: Sev-1/2 recurrence -37%, availability ~99.9%
+- **Engineering Manager** (Sep 2019 - Jul 2020) - **SportScheck GmbH** (Hamburg, Germany)
+  - Led an 11-engineer squad delivering customer-facing features end to end; launched channel integrations across five partner platforms, unlocking significant GMV
+- **Senior Software Engineer** (Jan 2018 - Aug 2019) - **Saloodo! GmbH (DHL)** (Cologne, Germany)
+  - Built an ML-powered pricing engine that lifted platform revenue by 11%; owned FinOps for high-volume transaction processing
+- **Software Engineer II** (Aug 2016 - Dec 2017) - **Madgex Ltd** (Brighton, UK)
+  - Job-board SaaS for media customers; analytics on Elasticsearch/Kibana, high-throughput report scheduling
+- **Software Engineer I** (Feb 2014 - Aug 2015) - **MyCairo.net** (Cairo, Egypt)
+  - AWS cloud migrations, CI/CD, monitoring, failover and data pipelines for retail clients
 
 ### Technical Skills
-- **Primary:** [YOUR_PRIMARY_SKILLS]
-- **Secondary:** [YOUR_SECONDARY_SKILLS]
-- **Domain:** [YOUR_DOMAIN_EXPERTISE]
-- **Software:** [YOUR_TOOLS_AND_SOFTWARE]
+- **Primary:** Engineering leadership (organisation design, engineering strategy, hiring & leveling, succession planning, performance frameworks, OKRs, portfolio planning, stakeholder management, investment cases)
+- **Secondary:** AI/data/ML (production AI systems, recommender systems, ranking & personalisation, feature pipelines, experimentation, LLMs, RAG, vector search, model evaluation, safety guardrails, cost optimisation)
+- **Domain:** Retail, e-commerce, logistics, SaaS; architecture & platforms (distributed systems, event-driven architecture, APIs, real-time systems, data pipelines, cloud & platform engineering); reliability & delivery (SLOs, observability, incident response, MTTR reduction, CI/CD, change-failure reduction)
+- **Software:** AWS, Java, Node.js, TypeScript, SQL, Next.js, React Native, Swift, Kotlin, PHP
 
 ### Certifications
-<!-- List relevant certifications with dates -->
-- **[CERTIFICATION_NAME]** - [HOURS]h - completed [DATE]
+- None on record (add here if acquired)
 
 ### Publications
-<!-- List peer-reviewed publications, if any -->
-- [AUTHOR_LIST] ([YEAR]). [TITLE]. [JOURNAL].
+- None (industry career; see Speaking & Community)
 
-### Awards
-<!-- List relevant awards, hackathons, competitions -->
-- [AWARD_NAME] - [EVENT] ([YEAR])
+### Speaking & Community
+- **Founder** - Africa Code Academy (developing local software talent and engineering leadership)
+- **Keynote Speaker** - CcHUB Social Change Summit (co-creation spaces and social-tech ventures in Nigeria)
+- Open source: GitHub Arctic Code Vault Contributor; contributor to HTBox/allReady humanitarian platform
 
 ### Behavioral Profile
-<!-- Your behavioral assessment results (PI, DISC, Myers-Briggs, or self-assessment) -->
-- **[TRAIT_1]** - [DESCRIPTION]
-- **[TRAIT_2]** - [DESCRIPTION]
-- **Strengths:** [YOUR_STRENGTHS]
-- **Growth areas:** [YOUR_GROWTH_AREAS]
-- **Thrives in:** [YOUR_IDEAL_ENVIRONMENT]
+- **Delivery-driven builder** - Thrives driving engineering product delivery through building and developing strong teams, and gets hands-on when needed to deliver on key metrics
+- **Commercially motivated** - Motivation is positive impact for the business: profitability or whatever the business defines as its success metrics
+- **Strengths:** Scaling and developing engineering organisations (up to 68 people), turning roadmaps into measurable commercial gains, operating under delivery pressure, deep technical credibility in AI/ML and platforms
+- **Growth areas:** (to be filled in by user - not yet captured)
+- **Thrives in:** Engineering-driven environments with a need to deliver under pressure, building great products that consumers or businesses actually use
 
 ### What Excites You
-<!-- What motivates you professionally -->
-- [PASSION_1]
-- [PASSION_2]
+- Building great products that consumers or businesses use
+- Driving measurable business impact (conversion, revenue, reliability, delivery speed)
+- Applying AI/ML at organisational scale (production LLM systems, personalisation)
+- Building and developing amazing engineering teams and leaders
 
-### Target Sectors
-<!-- Industries and companies you're targeting -->
-- [SECTOR_1]: [EXAMPLE_COMPANIES]
-- [SECTOR_2]: [EXAMPLE_COMPANIES]
+### Target Roles & Sectors
+- **Target roles:** Head of Engineering, Director of Engineering, VP of Engineering, CTO (scale-ups), Head of AI Engineering, Director of AI Platforms
+- **Sectors:** Open to all sectors (strongest track record in retail, e-commerce, logistics, SaaS, AI/ML products) - except gambling
+- **Compensation:** Minimum £150K base salary; open on total comp/equity structure beyond that
 
 ### Deal-breakers
-<!-- Hard constraints on job search -->
-- [DEALBREAKER_1]
-- [DEALBREAKER_2]
+- Gambling/betting sector - hard no
+- Base salary below £150K
+- Roles requiring relocation or full-time on-site outside London (must be London hybrid or fully remote)
 
 ## Repo Structure
 - `cv/` - LaTeX CV variants (moderncv template, banking style)

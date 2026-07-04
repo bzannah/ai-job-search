@@ -39,18 +39,18 @@ Expected output: `Output written on main_<company>.pdf (2 pages, ...)`. Any page
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Babagana Zannah - CV},
     pdfpagemode=FullScreen,
 }
 \usepackage[scale=0.77]{geometry}
 \usepackage{import}
 
 % Personal data
-\name{[FIRST_NAME]}{[LAST_NAME]}
-\address{[YOUR_ADDRESS]}{}{}
-\phone[mobile]{[YOUR_PHONE]}
-\email{[YOUR_EMAIL]}
-\extrainfo{\href{[YOUR_LINKEDIN_URL]}{LinkedIn}, \href{[YOUR_GITHUB_URL]}{GitHub}}
+\name{Babagana}{Zannah}
+\address{London, UK}{}{}
+\phone[mobile]{+44~7432~690~938}
+\email{heyzannah@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/babagana-zannah-6a76521b7/}{LinkedIn}, \href{https://github.com/bzannah}{GitHub}, \href{https://babagana.me}{babagana.me}}
 
 \begin{document}
 \makecvtitle
@@ -103,14 +103,16 @@ This is the most important section to customize. It appears right after `\makecv
 
 Write 5-7 lines that function as an "elevator pitch": a concise, compelling introduction explaining why you're qualified for *this specific role*. Focus on what the employer gains from hiring you.
 
-**Create 2-3 profile statement templates for your main role types:**
+**Profile statement templates for the main role types** (tailor the bracketed parts per posting):
 
-<!-- SETUP: These are populated based on your background -->
-**For [YOUR_PRIMARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_1]
+**For Head of Engineering / Director of Engineering roles:**
+> Hands-on engineering leader with 10+ years building and scaling engineering organisations of up to 68 people across retail, e-commerce, logistics and SaaS. I set technical strategy jointly with Product and Design, develop the managers and leaders beneath me, and turn roadmaps into measurable gains in conversion, revenue, reliability and delivery speed - most recently raising deployment frequency from 14 to 52 per day at Sainsbury's. [1 sentence connecting to this company's product/stage/challenge.]
 
-**For [YOUR_SECONDARY_ROLE_TYPE] roles:**
-> [YOUR_PROFILE_STATEMENT_TEMPLATE_2]
+**For Head of AI Engineering / Director of AI Platforms roles:**
+> Engineering leader who owns AI and LLM adoption strategy at one of the UK's largest retailers - RAG, vector search, evaluation, observability, and safety/privacy/cost guardrails - with an MSc in AI & Machine Learning (Distinction) and a decade of production ML work from pricing engines to personalisation that lifted conversion 1.8pp. I combine organisation-scale leadership (68-person org) with the technical depth to make AI decisions credible. [1 sentence connecting to this company's AI ambitions.]
+
+**For VP of Engineering / scale-up CTO roles:**
+> Engineering executive with 10+ years scaling engineering organisations (11 to 68 people) across the UK and Germany, pairing an MBA (Distinction) with deep technical roots in AI/ML and platform engineering. I build the delivery engine, the leadership bench, and the technical strategy that turn engineering into a commercial multiplier - deployment frequency +270%, availability to 99.9%, conversion +1.8pp. [1 sentence on why this company's stage/mission fits.]
 
 ### Core Competencies / Skills Section (Best Practice)
 Reorder and emphasize based on the role. Use bold category labels.

@@ -1,8 +1,7 @@
-%% Example CV - [YOUR_NAME]
+%% Example CV - Babagana Zannah
 %% Comprehensive overview of all competencies, experience, and achievements.
 %% Use as a master reference when tailoring role-specific CVs.
 %%
-%% SETUP: Run /setup to populate this with your actual information.
 %% Compile with: lualatex main_example.tex
 %% (pdflatex often fails on modern MiKTeX with fontawesome5 font-expansion errors.)
 
@@ -24,18 +23,19 @@
     linkcolor=blue,
     filecolor=magenta,
     urlcolor=blue,
-    pdftitle={[YOUR_NAME] - CV},
+    pdftitle={Babagana Zannah - CV},
     pdfpagemode=FullScreen,
 }
 \usepackage[scale=0.80]{geometry}
 \usepackage{import}
+\usepackage{needspace}
 
 % personal data
-\name{[First]}{[Last]}
-\address{[Your Address, City, Country]}{}{}
-\phone[mobile]{[+XX XXXXXXXXXX]}
-\email{[your.email@example.com]}
-\extrainfo{\href{[https://linkedin.com/in/your-profile]}{LinkedIn}, \href{[https://github.com/your-username]}{GitHub}}
+\name{Babagana}{Zannah}
+\address{London, UK}{}{}
+\phone[mobile]{+44~7432~690~938}
+\email{heyzannah@gmail.com}
+\extrainfo{\href{https://www.linkedin.com/in/babagana-zannah-6a76521b7/}{LinkedIn}, \href{https://github.com/bzannah}{GitHub}, \href{https://babagana.me}{babagana.me}}
 
 \begin{document}
 
@@ -46,7 +46,7 @@
 % ============================================================
 
 \vspace{6pt}
-\small{[Write a 3-5 line profile statement tailored to the role you're applying for. Focus on what makes you uniquely qualified. Example: "Data scientist with a PhD in [field] and X years of industry experience. Combines deep domain expertise in [domain] with strong applied machine learning and Python development skills. Experienced in developing end-to-end ML pipelines, from data ingestion to stakeholder-facing dashboards."]}
+\small{Hands-on engineering leader with 10+ years building and scaling engineering organisations of up to 68 people across retail, e-commerce, logistics and SaaS. Sets technical strategy jointly with Product and Design, develops the managers and leaders beneath him, and turns roadmaps into measurable gains in conversion, revenue, reliability and delivery speed. Deep technical roots in AI/ML and platform engineering, now applied at organisation scale.}
 
 % ============================================================
 %     CORE COMPETENCIES
@@ -56,15 +56,15 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item \textbf{[Skill Category 1]}: [Specific skills, frameworks, tools. Be concrete.]
+\item \textbf{Engineering leadership}: organisation design, engineering strategy, hiring \& leveling, succession planning, performance frameworks, OKRs, portfolio planning, stakeholder management, investment cases.
 
-\item \textbf{[Skill Category 2]}: [Specific skills, frameworks, tools.]
+\item \textbf{AI / data / ML}: production AI systems, recommender systems, ranking \& personalisation, feature pipelines, experimentation, LLMs, RAG, vector search, model evaluation, safety guardrails, cost optimisation.
 
-\item \textbf{[Skill Category 3]}: [Specific skills, frameworks, tools.]
+\item \textbf{Architecture \& platforms}: distributed systems, event-driven architecture, APIs, real-time systems, caching, data pipelines, cloud \& platform engineering.
 
-\item \textbf{[Skill Category 4]}: [Domain expertise, methods, approaches.]
+\item \textbf{Reliability \& delivery}: SLOs, observability, incident response, MTTR reduction, CI/CD, automated testing, change-failure reduction, engineering standards.
 
-\item \textbf{[Skill Category 5]}: [Tools, platforms, software.]
+\item \textbf{Technology stack}: AWS, Java, Node.js, TypeScript, SQL, Next.js, React Native, Swift, Kotlin, PHP.
 
 \end{itemize}
 
@@ -76,32 +76,71 @@
 \vspace{3pt}
 \begin{itemize}
 
-% --- Most Recent Role ---
-\item{\cventry{[YYYY--Present]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+% --- J Sainsbury PLC ---
+\item{\cventry{2023--Present}{Head of Engineering}{J Sainsbury PLC}{London, UK}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1 - be specific, use numbers where possible]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
-    \item [Achievement or responsibility 4]
+    \item \textbf{Organisation \& strategy}: lead engineering for Brand Experiences and Mobile Apps across a 68-person organisation, setting technical strategy jointly with Product and Design.
+    \item \textbf{AI at scale}: own the company's AI and LLM adoption strategy (RAG, vector search, evaluation, observability, and safety, privacy and cost guardrails); led AI-powered personalisation that lifted discovery CTR 2.7\% and conversion 1.8pp.
+    \item \textbf{Delivery engine}: rebuilt engineering delivery, raising deployment frequency from 14 to 52 per day while reducing change-failure rate and MTTR.
+    \item \textbf{People \& investment}: developed engineering managers and technical leads, strengthened succession planning and the hiring loop, and secured \pounds10m in early-careers programme funding.
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Previous Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+% --- Beacon Technologies ---
+\needspace{5\baselineskip}
+\item{\cventry{2021--2023}{Senior Engineering Manager}{Beacon Technologies Ltd}{London, UK}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
-    \item [Achievement or responsibility 3]
+    \item Led 37 engineers across delivery, pre-sales and support for enterprise B2B clients, owning architecture, delivery and team health.
+    \item Shipped a global freight-visibility platform using time-series forecasting and propensity models, improving ETA accuracy by 17\% and reducing the exception rate by 12\%.
+    \item Standardised delivery cadence, engineering standards and client-facing risk reporting, reducing cycle time by 22\%.
 \end{itemize}}}
 
 \vspace{3pt}
 
-% --- Earlier Role ---
-\item{\cventry{[YYYY--YYYY]}{[Job Title]}{[Company]}{[City, Country]}{}{\vspace{1pt}
+% --- SportScheck (Head of Engineering) ---
+\needspace{5\baselineskip}
+\item{\cventry{2020--2021}{Head of Engineering}{SportScheck GmbH}{Hamburg, Germany}{}{\vspace{1pt}
 \begin{itemize}
-    \item [Achievement or responsibility 1]
-    \item [Achievement or responsibility 2]
+    \item Led a 46-person organisation across software engineering, project management and product ownership, owning delivery, operations and reliability for digital products.
+    \item Set engineering strategy and roadmaps tied to revenue and reliability, shipping three major launches per quarter.
+    \item Established incident-review and remediation practice, cutting Sev-1/2 recurrence by around 37\% and raising availability to around 99.9\%.
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- SportScheck (Engineering Manager) ---
+\needspace{5\baselineskip}
+\item{\cventry{2019--2020}{Engineering Manager}{SportScheck GmbH}{Hamburg, Germany}{}{\vspace{1pt}
+\begin{itemize}
+    \item Led an 11-engineer squad delivering customer-facing features end to end; launched channel integrations across five partner platforms, unlocking significant GMV.
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- Saloodo! (DHL) ---
+\needspace{5\baselineskip}
+\item{\cventry{2018--2019}{Senior Software Engineer}{Saloodo! GmbH (DHL)}{Cologne, Germany}{}{\vspace{1pt}
+\begin{itemize}
+    \item Built an ML-powered pricing engine that lifted platform revenue by 11\%; owned FinOps capabilities for high-volume transaction processing and automated manual operations.
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- Madgex ---
+\needspace{5\baselineskip}
+\item{\cventry{2016--2017}{Software Engineer II}{Madgex Ltd}{Brighton, UK}{}{\vspace{1pt}
+\begin{itemize}
+    \item Delivered job-board SaaS for media customers; built analytics on Elasticsearch and Kibana and high-throughput report scheduling.
+\end{itemize}}}
+
+\vspace{3pt}
+
+% --- MyCairo.net ---
+\needspace{5\baselineskip}
+\item{\cventry{2014--2015}{Software Engineer I}{MyCairo.net}{Cairo, Egypt}{}{\vspace{1pt}
+\begin{itemize}
+    \item Delivered AWS cloud migrations, CI/CD, monitoring, failover and data pipelines for retail clients.
 \end{itemize}}}
 
 \end{itemize}
@@ -114,15 +153,15 @@
 \vspace{1pt}
 \begin{itemize}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-Thesis: ``[Thesis Title].'' [Brief description of research focus.]
-}}
+\item{\cventry{2021--2023}{MBA}{Quantic School of Business and Technology}{}{}{Distinction.}}
 
 \vspace{3pt}
 
-\item{\cventry{[YYYY--YYYY]}{[Degree] in [Field]}{[Institution]}{[City, Country]}{}{\vspace{1pt}
-[Brief description or key topics.]
-}}
+\item{\cventry{2015--2016}{MSc, Artificial Intelligence \& Machine Learning}{University of York}{York, UK}{}{Distinction.}}
+
+\vspace{3pt}
+
+\item{\cventry{2011--2014}{BSc (Hons), Computer Science}{Middlesex University}{London, UK}{}{First Class.}}
 
 \end{itemize}
 
@@ -133,27 +172,18 @@ Thesis: ``[Thesis Title].'' [Brief description of research focus.]
 \section{Languages}
 \vspace{1pt}
 \begin{itemize}
-\item [Language 1] (native), [Language 2] (fluent), [Language 3] (intermediate).
+\item English (fluent).
 \end{itemize}
 
 % ============================================================
-%     PUBLICATIONS (optional)
+%     SPEAKING AND COMMUNITY
 % ============================================================
 
-\section{Publications}
+\section{Speaking \& Community}
 \vspace{1pt}
 \begin{itemize}
-\item [Author(s)] ([Year]). [Title]. [Journal/Conference]. \href{[DOI_URL]}{DOI link}
-\end{itemize}
-
-% ============================================================
-%     HONORS AND AWARDS (optional)
-% ============================================================
-
-\section{Honors and Awards}
-\vspace{1pt}
-\begin{itemize}
-\item{\textbf{[Award Name]} -- [Event/Organization] ([Year]).}
+\item{\textbf{Founder} -- Africa Code Academy: developing local software talent and engineering leadership.}
+\item{\textbf{Keynote Speaker} -- CcHUB Social Change Summit: co-creation spaces and social-tech ventures in Nigeria.}
 \end{itemize}
 
 % ============================================================
